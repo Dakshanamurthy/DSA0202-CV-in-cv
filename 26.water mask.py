@@ -1,7 +1,7 @@
 import cv2
 
 # Load the image
-img = cv2.imread("C:/Users/Roshan/OneDrive/Pictures/animals-1663825597439-9977.jpg"')
+img = cv2.imread("C:/Users/daksh/OneDrive/Pictures/animals-1663825597439-9977.jpg"')
 
 # Load the watermark image
 watermark = cv2.imread('C:/Users/ELCOT/Downloads/download.jpg', cv2.IMREAD_UNCHANGED)
