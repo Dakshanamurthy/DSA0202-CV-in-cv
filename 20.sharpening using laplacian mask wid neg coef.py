@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the image in grayscale
-img = cv2.imread("C:/Users/Roshan/OneDrive/Pictures/animals-1663825597439-9977.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("C:/Users/daksh/OneDrive/Pictures/animals-1663825597439-9977.jpg", cv2.IMREAD_GRAYSCALE)
 
 # Create the Laplacian filter with a negative center coefficient
 laplacian_filter = np.array([[0, -1, 0], [-1, 5, -1], [0, -1, 0]])
