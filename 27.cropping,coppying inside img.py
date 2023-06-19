@@ -3,7 +3,7 @@ import numpy as np
 
 # Load the images
 img1 = cv2.imread('C:/Users/ELCOT/Downloads/download.jpg')
-img2 = cv2.imread("C:/Users/Roshan/OneDrive/Pictures/animals-1663825597439-9977.jpg")
+img2 = cv2.imread("C:/Users/daksh/OneDrive/Pictures/animals-1663825597439-9977.jpg")
 
 # Define the ROI
 x, y, w, h = 100, 100, 200, 200
