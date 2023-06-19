@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load image in grayscale mode
-img = cv2.imread("C:/Users/Roshan/OneDrive/Pictures/animals-1663825597439-9977.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("C:/Users/daksh/OneDrive/Pictures/animals-1663825597439-9977.jpg", cv2.IMREAD_GRAYSCALE)
 
 # Apply Sobel filter in X direction
 sobelx = cv2.Sobel(img, cv2.CV_64F, 1, 0, ksize=3)
