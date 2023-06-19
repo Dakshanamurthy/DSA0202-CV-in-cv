@@ -1,7 +1,7 @@
 import cv2
 
 # Load the image
-img = cv2.imread("C:/Users/Roshan/OneDrive/Pictures/animals-1663825597439-9977.jpg", 0)
+img = cv2.imread("C:/Users/daksh/OneDrive/Pictures/animals-1663825597439-9977.jpg", 0)
 
 # Apply Canny edge detection
 edges = cv2.Canny(img, 100, 200)
