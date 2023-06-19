@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Read in the image
-img = cv2.imread('C:/Users/ELCOT/Downloads/download.jpg')
+img = cv2.imread('C:/Users/daksh/Downloads/download.jpg')
 
 # Create a structuring element for opening
 kernel = np.ones((5,5),np.uint8)
