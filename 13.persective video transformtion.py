@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the video
-cap = cv2.VideoCapture("C:/Users/Roshan/OneDrive/Pictures/animals-1663825597439-9977.jpg")
+cap = cv2.VideoCapture("C:/Users/daksh/OneDrive/Pictures/animals-1663825597439-9977.jpg")
 
 # Define the source and destination points for perspective transformation
 src = np.float32([[207, 236], [560, 236], [0, 720], [960, 720]])
