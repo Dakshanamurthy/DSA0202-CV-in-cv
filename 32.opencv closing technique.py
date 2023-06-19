@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load image in grayscale
-img = cv2.imread("C:/Users/Roshan/OneDrive/Pictures/animals-1663825597439-9977.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("C:/Users/daksh/OneDrive/Pictures/animals-1663825597439-9977.jpg", cv2.IMREAD_GRAYSCALE)
 
 # Define kernel size and shape for closing operation
 kernel = np.ones((5,5), np.uint8)
