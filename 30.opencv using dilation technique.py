@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Read in the image
-img = cv2.imread("C:/Users/Roshan/OneDrive/Pictures/animals-1663825597439-9977.jpg")
+img = cv2.imread("C:/Users/daksh/OneDrive/Pictures/animals-1663825597439-9977.jpg")
 
 # Create a structuring element for dilation
 kernel = np.ones((5,5),np.uint8)
