@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # Load the image
-img = cv2.imread("C:/Users/Roshan/OneDrive/Pictures/animals-1663825597439-9977.jpg", 0)
+img = cv2.imread("C:/Users/daksh/OneDrive/Pictures/animals-1663825597439-9977.jpg", 0)
 
 # Apply Sobel filter along the X-axis
 sobelx = cv2.Sobel(img, cv2.CV_64F, 1, 0, ksize=3)
