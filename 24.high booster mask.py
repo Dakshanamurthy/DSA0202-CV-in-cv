@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the image in grayscale
-img = cv2.imread('C:/Users/ELCOT/Downloads/download.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('C:/Users/daksh/Downloads/download.jpg', cv2.IMREAD_GRAYSCALE)
 
 # Apply a Gaussian filter to the image
 blur = cv2.GaussianBlur(img, (5,5), 0)
