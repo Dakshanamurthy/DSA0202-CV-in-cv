@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the image
-image = cv2.imread("C:/Users/Roshan/OneDrive/Pictures/animals-1663825597439-9977.jpg")
+image = cv2.imread("C:/Users/daksh/OneDrive/Pictures/animals-1663825597439-9977.jpg")
 
 # Define the Laplacian kernel with diagonal extension
 kernel = np.array([[0, -1, 0],
